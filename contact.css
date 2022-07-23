@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+.csec
+{
+
+	background-color:#6abadeba;
+	font-family: 'Ubuntu', sans-serif; 
+	background-image: url('img/contactus.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.login{
+		width: 300px;
+		margin: auto;
+		padding: 50px;
+		background: #43508d;
+		border-radius: 15px ;
+		
+}
+h2{
+	text-align: center;
+	color:white;
+	font-size: 45px;
+	padding: 24px;
+}
+label{
+	color: #FFD700;
+	font-size: 20px;
+}
+#Uname{
+	width: 300px;
+	height: 35px;
+	border: none;
+	color: white;
+	border-radius: 17px;
+	padding-left: 8px;
+}
+#Pass{
+	width: 300px;
+	height: 35px;
+	border: none;
+	color: white;
+	border-radius: 17px;
+	padding-left: 8px;
+	
+}
+#log{
+	width: 300px;
+	height: 35px;
+	border: none;
+	border-radius: 17px;
+	padding-left: 7px;
+	color:white;
+
+
+}
+span{
+	color: white;
+	font-size: 19px;
+}
+a{
+	float: right;
+	text-decoration:none;
+	color:white;
+	
+}
+a:hover{
+	font-size: 19px;
+	color: #ffa41b;
+}
+.bg{
+   
+    margin: auto;
+}
+.bg h2{
+	color: #ffa41b;
+	font-size: 40px;
+}
+

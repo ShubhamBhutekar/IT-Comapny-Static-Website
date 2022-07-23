@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+.service-head{
+    width: 100%;
+    display: block;
+    text-align: center;
+    height:74px;
+    margin: 20px auto;
+    background-color:crimson;
+}
+
+.service-head h1{
+    font-size: 50px;
+    font-weight: 900;
+    color:blue;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* Clients Section */
+#client-section{ 
+    position: relative;
+    height: 70vh;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+#client-section::before{
+ content: "";
+ position: absolute;
+ background: url('img/unity.webp');
+ background-position: center;
+ width: 100%;
+ height: 100vh;
+ z-index: -1;
+ 
+}
+/*Utility Classes */
+.h-primary{
+
+    font-size: 3.8rem;
+    padding: 12px;
+    margin-left: 500px;
+    color:#00c6a7;
+    text-decoration: underline;
+
+}
+
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-item{
+    padding: 44px;
+}
+
+#clients img{
+    height: 124px;
+    border-radius: 70px;
+    filter: invert(100%);
+}
+

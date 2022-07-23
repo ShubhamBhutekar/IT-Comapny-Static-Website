@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding:0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+.logo{
+    width:19%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 36%;
+    border-radius: 50px;
+}
+.logo img:hover{
+    width: 40%;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    z-index: 1;
+    cursor: pointer;
+    background-color: crimson;
+    
+}
+
+.nav-list{
+    width: 80%; 
+    display: flex; 
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 24px 32px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li a:hover{ 
+    color:blue;
+}
+
+.hover-line::after{
+    content:''; 
+    width:0%;
+    height:3px;
+    display: block;
+    background-color: white;
+    transition:width .3;
+}
+.hover-line:hover::after{
+    width:100%;
+    transition: width .3s;
+}
+.rightNav{ 
+    width: 20%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+#search{
+    padding: 8px;
+    font-size: 10px;
+    border: 1px solid cyan;
+    color: white;
+    border-radius: 22px;
+}
+
+input{
+    color:white;
+    background: linear-gradient(57deg, #00c6a7,#1e4d92);
+    border: none;
+    
+}
+
+.background{
+    background: url('img/company.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 48%;
+    margin: auto;
+    height: 90%;
+}
+
+.firstHalf{
+    width:70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.secondHalf{
+    width: 49%;
+}
+
+.secondHalf img{
+    width: 55%;
+    border-radius: 34px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 46px;
+    font-weight: 800;
+}
+
+.text-small{
+    font-size: 21px;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.btn{
+    padding: 9px 16px;
+    margin: 14px 2px;
+    border: 1px solid cyan;
+    border-radius: 40px; 
+    background: linear-gradient(57deg, #00c6a7,#1e4d92);
+    color: white;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+
+
+button:hover{
+    background: linear-gradient(57deg, #1e4d92 ,#00c6a7);
+}
+
+.btn-sm{
+    padding: 3px 6px;
+    vertical-align: middle;
+    font-size: 15px;
+}
+
+.btn-dark{
+    color:whitesmoke;
+    border: 1px solid cyan;
+    font-size: 17px;
+
+}
+.section{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+}
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 10px 65px;
+}
+
+.sectionTag{
+    padding: 16px 0;
+    color:#00c6a7;
+}
+
+.sectionSubTag{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.thumbnail img{
+    width: 250px;
+    border-radius: 20px;
+    margin-top: 19px;
+    transition: all .3s ease-out;
+
+}
+
+.thumbnail img:hover{
+
+    transform:scale(1.1);
+    z-index: 1;
+}
+
+
+.contact{
+    background:url('img/contact.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:724px;
+}
+.text-center{
+
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 52px;
+   font-family: 'Ubuntu', sans-serif;
+   font-size: 47px;
+   color:#00c6a7;
+}
+
+.form{
+    max-width: 40%;
+    margin: 24px 60px;
+}
+
+.form-input{
+    margin: 10px 0px;
+    padding: 8px 12px;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid darkgreen;
+    border-radius: 58px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+textarea{
+    margin: 10px 0px;
+    padding: 8px 12px;
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid darkgreen;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 20px;
+}
+
+.foot{
+    background-color: crimson;
+}
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+   font-size:20px;
+   font-family: 'Ubuntu', sans-serif; 
+   display: flex;
+   justify-content: center;
+   color: white;
+   
+}
+.column{
+    display: flex;
+    height: 70vh;
+
+}
+
+.foot-list{
+   max-width:29%;
+   padding-left: 0;
+
+}
+
+.foot-list li{
+    list-style: none;
+    margin: 8px 72px;
+    padding: 19px 32px;
+}
+
+.foot-list li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 700;
+    color: white;
+}
+
+.imp{
+    font-size: 21px;
+    font-weight: 900;
+    color:#323edd ;
+}
+
+b{
+    color: #ffa41b;
+}
+
+.social{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.social a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+    padding: 10px;
+}
+.social a:hover{
+
+    font-size: 21px;
+    color: #ffa41b;
+}
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+}
+
+.blink {
+  animation: blinker 0.8s linear infinite;
+  
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.blink-one {
+  animation: blinker-one 2s linear infinite;
+}
+
+
+
+
+/* About section css below */
+
+
+.about{
+    background:white;
+    height:85vh;
+    font-family: 'Ubuntu', sans-serif; 
+}
+.container{
+    background: #ffffff;
+    height: 80vh;
+    width: 95%;
+    border: 2px solid darkgreen;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.img{
+    height: 100%;
+    width: 45%;
+    background: url("img/overview.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+    width: 50%;
+    padding: 10px 10px;
+    position: absolute;
+    top: 38%;
+    left: 72%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 22px;
+}
+
+.heading{
+    text-align: center;
+    color:#00c6a7;
+    font-size: 40px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+.btnA{
+    position: absolute;
+    top: 90%;
+    left: 72%;
+    transform: translate(-50%,-50%);
+    border: none;
+    outline: none;
+    background:crimson;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size:20px;
+    color: #ffffff;
+    width: 12%;
+    transition: 0.3s ease;
+}
+.btnA:hover{
+    background: #00a3e8;
+}
+
+/* Our Team section css below */
+
+.team {
+    background-color:crimson;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif; 
+  }
+  
+  .box {
+    margin: 20px 40px;
+    color: white;
+  }
+  
+  .head{
+    font-size: 60px;
+    color:#00c6a7;
+    text-decoration:underline;
+  }
+  
+  .heading span {
+    font-style: italic;
+    font-size: 30px;
+    
+  }
+  
+  .profiles {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+    border-radius: 15px;
+    background-color: #00c6a7;;
+  }
+  
+  .profile {
+    flex-basis: 260px;
+    text-align: center;
+  }
+  .profile li{
+
+    list-style: none;
+    font-size: 25px;
+
+  }
+  
+  .profile .profile-img {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    filter: grayscale(100%);
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .profile:hover .profile-img {
+    filter: grayscale(0);
+  }
+  
+  .user-name {
+    margin-top: 30px;
+    font-size: 35px;
+  }
+  
+  .profile h5 {
+    font-size: 22px;
+    font-weight: 100;
+    letter-spacing: 3px;
+    color:#323edd ;
+    font-weight: 800;
+  }
+  
+  .profile p {
+    font-size: 18px;
+    margin-top: 19px;
+    text-align: justify;
+  }
+  
+/* about us  */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    height: 550px;
+    background: url('img/Institute.jpg') no-repeat center center/cover;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif; 
+    align-items: center;
+}
+
+.h-primary{
+    
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+#home h1{
+    color:white;
+    text-align: center;
+
+}
+
+#home p{
+    color:whitesmoke;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+.btnG{
+    padding: 6px 20px;
+    border: 1px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.4rem;
+    border-radius: 20px;
+    cursor:pointer;
+}
+  
+
+
+
+
+
