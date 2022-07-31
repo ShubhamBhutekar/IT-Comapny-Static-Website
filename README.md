@@ -3,4 +3,4 @@ A Creature is a IT-Company which provides different types of IT-Solutions, consu
 
 ![Creature](https://user-images.githubusercontent.com/109847442/180720208-64f1a9af-b26a-41b4-8f5d-a727c8d0155c.png)
 
- Click to visit website: https://shubhambhutekar.github.io/IT-Company-Static-Website/
+ Click to Visit Website:
